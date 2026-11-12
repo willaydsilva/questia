@@ -47,19 +47,31 @@ def trocar_senha(usuario):
     print("Senha alterada!")
 
 
+
 def excluir_minha_conta(usuario):
     """Retorna True se a conta foi excluída."""
+
     if usuario["tipo"] == "professor":
         alunos = listar_alunos_do_professor(usuario["nome"])
+
         if alunos:
-            print(f"Atenção: {len(alunos)} aluno(s) estão vinculados a você e ficarão sem professor válido.")
+            print(f"Você tem {len(alunos)} aluno(s) vinculados.")
+            print("Transfira os alunos antes de excluir sua conta.")
+            return False
+
     confirma = normalizar(input("Tem certeza que quer excluir sua conta? (sim/não) "))
+
     if confirma in ("sim", "s"):
-        excluir_usuario(usuario["id"])
-        print("Conta excluída.")
-        return True
+        if excluir_usuario(usuario["id"]):
+            print("Conta excluída.")
+            return True
+
+        print("Não foi possível excluir a conta.")
+        return False
+
     print("Ok, sua conta foi mantida.")
     return False
+
 
 
 def ver_meus_alunos(professor):

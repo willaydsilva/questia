@@ -1,0 +1,182 @@
+{
+    "usuarios": [
+        {
+            "nome": "Helena Barbosa",
+            "tipo": "professor",
+            "escola": "Escola Modelo Aprender",
+            "materia": "Matemática",
+            "turma": "7A",
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 1
+        },
+        {
+            "nome": "Rafael Montenegro",
+            "tipo": "professor",
+            "escola": "Escola Modelo Aprender",
+            "materia": "Português",
+            "turma": "7B",
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 2
+        },
+        {
+            "nome": "Patrícia Cavalcanti",
+            "tipo": "professor",
+            "escola": "Escola Modelo Aprender",
+            "materia": "Ciências",
+            "turma": "8A",
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 3
+        },
+        {
+            "nome": "Ana Beatriz Souza",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "7A",
+            "professor": "Helena Barbosa",
+            "ano": "7º ano",
+            "trilha": "Frações",
+            "pontos": 120,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 4
+        },
+        {
+            "nome": "Bruno Henrique Lima",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "7A",
+            "professor": "Helena Barbosa",
+            "ano": "7º ano",
+            "trilha": "Frações",
+            "pontos": 85,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 5
+        },
+        {
+            "nome": "Camila Ferreira",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "7A",
+            "professor": "Helena Barbosa",
+            "ano": "7º ano",
+            "trilha": "Geometria",
+            "pontos": 200,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 6
+        },
+        {
+            "nome": "Davi Albuquerque",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "7A",
+            "professor": "Helena Barbosa",
+            "ano": "7º ano",
+            "trilha": "Frações",
+            "pontos": 40,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 7
+        },
+        {
+            "nome": "Eduarda Pires",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "7B",
+            "professor": "Rafael Montenegro",
+            "ano": "7º ano",
+            "trilha": "Interpretação de texto",
+            "pontos": 150,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 8
+        },
+        {
+            "nome": "Felipe Andrade",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "7B",
+            "professor": "Rafael Montenegro",
+            "ano": "7º ano",
+            "trilha": "Gramática",
+            "pontos": 95,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 9
+        },
+        {
+            "nome": "Gabriela Neves",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "7B",
+            "professor": "Rafael Montenegro",
+            "ano": "7º ano",
+            "trilha": "Interpretação de texto",
+            "pontos": 175,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 10
+        },
+        {
+            "nome": "Heitor Vasconcelos",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "7B",
+            "professor": "Rafael Montenegro",
+            "ano": "7º ano",
+            "trilha": "Gramática",
+            "pontos": 60,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 11
+        },
+        {
+            "nome": "Isabela Rocha",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "8A",
+            "professor": "Patrícia Cavalcanti",
+            "ano": "8º ano",
+            "trilha": "Corpo humano",
+            "pontos": 130,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 12
+        },
+        {
+            "nome": "João Pedro Melo",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "8A",
+            "professor": "Patrícia Cavalcanti",
+            "ano": "8º ano",
+            "trilha": "Ecologia",
+            "pontos": 110,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 13
+        },
+        {
+            "nome": "Larissa Duarte",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "8A",
+            "professor": "Patrícia Cavalcanti",
+            "ano": "8º ano",
+            "trilha": "Corpo humano",
+            "pontos": 210,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 14
+        },
+        {
+            "nome": "Mateus Cordeiro",
+            "tipo": "aluno",
+            "escola": "Escola Modelo Aprender",
+            "turma": "8A",
+            "professor": "Patrícia Cavalcanti",
+            "ano": "8º ano",
+            "trilha": "Ecologia",
+            "pontos": 70,
+            "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
+            "id": 15
+        }
+    ],
+    "escolas": [
+        {
+            "estado": "Pernambuco",
+            "cidade": "Recife",
+            "escola": "Escola Modelo Aprender"
+        }
+    ]
+}

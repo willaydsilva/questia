@@ -42,7 +42,13 @@ def pedir_professor_existente():
             return None
         professor = buscar_professor(nome)
         if professor:
-            return professor["nome"]
+            try:
+                nome_professor = professor [nome]
+            except KeyError:
+                print("Erro: os dados do professor não possuem a chave 'nome'.")
+        else :
+            return nome_professor
+        else:
         print("Professor não encontrado. Confira o nome ou peça para ele se cadastrar primeiro.")
 
 

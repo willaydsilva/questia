@@ -18,9 +18,9 @@ def mostrar_dados(usuario):
     print(f"\nNome: {usuario['nome']}")
     for campo in CAMPOS_EDITAVEIS[usuario["tipo"]]:
         print(f"{campo.capitalize()}: {usuario.get(campo, '-')}")
-
-
+        
 def atualizar_meus_dados(usuario):
+  try:
     campos = CAMPOS_EDITAVEIS[usuario["tipo"]]
     print("Campos que você pode alterar:", ", ".join(campos))
     campo = normalizar(input("Qual campo quer alterar? "))
@@ -38,18 +38,31 @@ def atualizar_meus_dados(usuario):
 
     atualizar_usuario(usuario["id"], {campo: valor})
     usuario[campo] = valor
+  except KeyError as error:
+    print(f"Erro: dado obrigatório não encontrado ({erro}).")
+  except TypeError:
+    print("Erro: não foi possível manipular os dados do usuário.")
+  else:
     print("Dados atualizados!")
 
 
 def trocar_senha(usuario):
+  try:
     senha = pedir_senha()
     atualizar_usuario(usuario["id"], {"senha": gerar_hash_senha(senha)})
+
+  except keyError as error:
+    print(f"Erro: identificador não encontrado ({erro}).")
+  except TypeError:
+    print("Erro: não foi possível processar os dados da senha.")
+  else:
     print("Senha alterada!")
 
 
 
 def excluir_minha_conta(usuario):
     """Retorna True se a conta foi excluída."""
+  try: 
 
     if usuario["tipo"] == "professor":
         alunos = listar_alunos_do_professor(usuario["nome"])
@@ -72,6 +85,14 @@ def excluir_minha_conta(usuario):
     print("Ok, sua conta foi mantida.")
     return False
 
+  except keyError as error:
+    print(f"Erro: informação necessária não encontrada ({erro}).")
+  except TypeError:
+    print("Erro: os dados da conta estão em formato inválido.")
+
+    return False
+
+
 
 
 def ver_meus_alunos(professor):
@@ -82,8 +103,7 @@ def ver_meus_alunos(professor):
     print(f"\nSeus alunos ({len(alunos)}):")
     for a in alunos:
         print(f"- {a['nome']} | turma: {a['turma']} | ano: {a['ano']}")
-
-
+     
 def ver_escolas():
     escolas = listar_escolas()
     if not escolas:
@@ -91,10 +111,16 @@ def ver_escolas():
         return
     for e in escolas:
         print(f"- {e['escola']} ({e['cidade']}, {e['estado']})")
-
-
+      
 def cadastrar_escola():
+  try:
     estado, cidade, escola = pedir_dados_escola()
+    resultado = adicionar_escola(estado, cidade, escola)
+  except ValueError:
+    print("Erro: os dados da escola foram informados incorretamente.")
+  except TypeError:
+     print("Erro: formato inválido nos dados da escola.")
+  else:
     if adicionar_escola(estado, cidade, escola):
         print(f"A escola {escola}, em {cidade}, {estado}, foi adicionada!")
     else:
@@ -174,16 +200,23 @@ def abrir_menu(usuario):
 # ---------- Login e cadastro ----------
 
 def boas_vindas(usuario):
+  try:
     if usuario["tipo"] == "aluno":
         print(f"Bem vindo de volta, {usuario['nome']}! Você é da escola {usuario['escola']} "
               f"e seu professor é o {usuario['professor']}")
     else:
         print(f"Bem vindo de volta, professor {usuario['nome']}! Você dá aula de "
               f"{usuario['materia']} na turma {usuario['turma']} da escola {usuario['escola']}")
+      except KeyError as erro:
+        print(f"Erro: informação necessária para apresentação não encontrada ({erro}).")
+
+    except TypeError:
+        print("Erro: dados do usuário em formato inválido.")
 
 
 def fazer_login():
     """Retorna o usuário logado ou None."""
+  try: 
     nome = pedir_texto("Digite seu nome completo: ")
     usuario = buscar_usuario(nome)
 
@@ -205,9 +238,18 @@ def fazer_login():
     print("Muitas tentativas. Voltando ao início.")
     return None
 
+   except KeyError as erro:
+        print(f"Erro: informação necessária para o login não encontrada ({erro}).")
+
+    except TypeError:
+        print("Erro: dados de autenticação em formato inválido.")
+
+    return None
+
 
 def cadastrar():
     """Retorna o novo usuário ou None se o cadastro não foi concluído."""
+  try: 
     tipo = normalizar(input("Você é aluno ou professor? "))
     if tipo not in ("aluno", "professor"):
         print("Opção inválida. Digite 'aluno' ou 'professor'.")
@@ -239,12 +281,21 @@ def cadastrar():
             cadastrar_escola()
 
     return usuario
+    
+    except KeyError as erro:
+        print(f"Erro: informação necessária para o cadastro não encontrada ({erro}).")
+
+    except TypeError:
+        print("Erro: formato inválido nos dados do cadastro.")
+
+    return None
 
 
 # ---------- Programa principal ----------
 
 def main():
     print("Bem vindo ao QuestiAI!!")
+try: 
     while True:
         print("\n1 - Já tenho login")
         print("2 - Quero me cadastrar")
@@ -264,7 +315,12 @@ def main():
             print("Até logo!")
             break
         else:
-            print("Opção inválida.")
+            print("Opção inválida.") 
+          except KeyboardInterrupt:
+        print("\nPrograma interrompido pelo usuário.")
+
+    finally:
+        print("Encerrando o QuestiAI. Até a próxima!")
 
 
 if __name__ == "__main__":

@@ -76,20 +76,49 @@ def _preencher_ids(dados):
 
 
 def carregar_dados():
-    if not os.path.exists(ARQUIVO):
+
+    try:
+        with open(ARQUIVO, "r", encoding="utf-8") as f:
+            dados = json.load(f)
+
+    except FileNotFoundError:
         return {"usuarios": [], "escolas": []}
 
-    with open(ARQUIVO, "r", encoding="utf-8") as f:
-        dados = json.load(f)
+    except json.JSONDecodeError as erro:
+        raise ValueError("O arquivo JSON está com formato inválido.") from erro
 
-    dados.setdefault("usuarios", [])
-    dados.setdefault("escolas", [])
+    except UnicodeDecodeError as erro:
+        raise ValueError("O arquivo possui problemas de codificação.") from erro
 
-    if _preencher_ids(dados):
-        salvar_dados(dados)
+    except PermissionError as erro:
+        raise PermissionError("Sem permissão para acessar o arquivo de dados.") from erro
 
-    return dados
+    else:
+        if not isinstance(dados, dict):
+            raise ValueError("A estrutura principal do JSON precisa ser um dicionário.")
 
+        dados.setdefault("usuarios", [])
+        dados.setdefault("escolas", [])
+
+        if not isinstance(dados["usuarios"], list):
+            raise ValueError("A lista de usuários está inválida.")
+
+        if not isinstance(dados["escolas"], list):
+            raise ValueError("A lista de escolas está inválida.")
+
+        if not all(isinstance(u, dict) for u in dados["usuarios"]):
+            raise ValueError("Existem registros de usuários inválidos.")
+
+        if not all(isinstance(e, dict) for e in dados["escolas"]):
+            raise ValueError("Existem registros de escolas inválidos.")
+
+        if _preencher_ids(dados):
+            salvar_dados(dados)
+
+        return dados
+
+    except OSError as erro:
+        raise OSError("Não foi possível acessar o arquivo de dados.") from erro
 
 def salvar_dados(dados):
     """Salva os dados usando um arquivo temporário."""

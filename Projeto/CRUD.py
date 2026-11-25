@@ -26,7 +26,13 @@ def menu_usuario(usuario):
         opcao = input("Escolha uma opção: ").strip()
 
         if opcao == "1":
-            for u in listar_usuarios():
+            usuarios = listar_usuarios()
+            if usuario.get("tipo") == "aluno":
+                usuarios = [
+                    u for u in usuarios
+                    if u.get("tipo") == "aluno" and u.get("escola") == usuario.get("escola")
+                ]
+            for u in usuarios:
                 print(f"- {u.get('nome')} ({u.get('tipo')}) | escola: {u.get('escola')}")
 
         elif opcao == "2":

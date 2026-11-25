@@ -1,5 +1,5 @@
 def criar_usuario():
-    nome = input("Seu nome:")
+    nome = input("Seu nome: ")
     escola = input("Qual sua escola: ")
     while True:
         try:
@@ -8,7 +8,7 @@ def criar_usuario():
         except ValueError:
             print("Digite apenas números para o ano.")
     turma = input("Qual sua turma: ")
-    professor = input("Qual é seu professor")
+    professor = input("Qual é seu professor: ")
     return nome, escola, turma, professor, ano
 
 def criar_professor():

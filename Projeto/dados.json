@@ -3,7 +3,7 @@
         {
             "nome": "Helena Barbosa",
             "tipo": "professor",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "materia": "Matemática",
             "turma": "7A",
             "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
@@ -12,7 +12,7 @@
         {
             "nome": "Rafael Montenegro",
             "tipo": "professor",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "materia": "Português",
             "turma": "7B",
             "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
@@ -21,7 +21,7 @@
         {
             "nome": "Patrícia Cavalcanti",
             "tipo": "professor",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "materia": "Ciências",
             "turma": "8A",
             "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
@@ -30,7 +30,7 @@
         {
             "nome": "Ana Beatriz Souza",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "7A",
             "professor": "Helena Barbosa",
             "ano": "7º ano",
@@ -42,7 +42,7 @@
         {
             "nome": "Bruno Henrique Lima",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "7A",
             "professor": "Helena Barbosa",
             "ano": "7º ano",
@@ -54,7 +54,7 @@
         {
             "nome": "Camila Ferreira",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "7A",
             "professor": "Helena Barbosa",
             "ano": "7º ano",
@@ -66,7 +66,7 @@
         {
             "nome": "Davi Albuquerque",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "7A",
             "professor": "Helena Barbosa",
             "ano": "7º ano",
@@ -78,7 +78,7 @@
         {
             "nome": "Eduarda Pires",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "7B",
             "professor": "Rafael Montenegro",
             "ano": "7º ano",
@@ -90,7 +90,7 @@
         {
             "nome": "Felipe Andrade",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "7B",
             "professor": "Rafael Montenegro",
             "ano": "7º ano",
@@ -102,7 +102,7 @@
         {
             "nome": "Gabriela Neves",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "7B",
             "professor": "Rafael Montenegro",
             "ano": "7º ano",
@@ -114,7 +114,7 @@
         {
             "nome": "Heitor Vasconcelos",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "7B",
             "professor": "Rafael Montenegro",
             "ano": "7º ano",
@@ -126,7 +126,7 @@
         {
             "nome": "Isabela Rocha",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "8A",
             "professor": "Patrícia Cavalcanti",
             "ano": "8º ano",
@@ -138,7 +138,7 @@
         {
             "nome": "João Pedro Melo",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "8A",
             "professor": "Patrícia Cavalcanti",
             "ano": "8º ano",
@@ -150,7 +150,7 @@
         {
             "nome": "Larissa Duarte",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "8A",
             "professor": "Patrícia Cavalcanti",
             "ano": "8º ano",
@@ -162,7 +162,7 @@
         {
             "nome": "Mateus Cordeiro",
             "tipo": "aluno",
-            "escola": "Escola Modelo Aprender",
+            "escola": "Modelo Aprender",
             "turma": "8A",
             "professor": "Patrícia Cavalcanti",
             "ano": "8º ano",
@@ -170,13 +170,365 @@
             "pontos": 70,
             "senha": "eb913199d60e78ba14120862a2dfa728$e2b40a099b8189115be426394ddcbcd517d99c0f136189d2949f2c882f0ab7e6",
             "id": 15
+        },
+        {
+            "nome": "Mariana Costa",
+            "tipo": "professor",
+            "escola": "CESAR School",
+            "materia": "Matemática",
+            "turma": "7A",
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 16
+        },
+        {
+            "nome": "Lucas Almeida",
+            "tipo": "professor",
+            "escola": "CESAR School",
+            "materia": "Português",
+            "turma": "7B",
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 17
+        },
+        {
+            "nome": "Beatriz Nogueira",
+            "tipo": "professor",
+            "escola": "CESAR School",
+            "materia": "Ciências",
+            "turma": "8A",
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 18
+        },
+        {
+            "nome": "Fernanda Ribeiro",
+            "tipo": "professor",
+            "escola": "Horizonte do Saber",
+            "materia": "Matemática",
+            "turma": "7A",
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 19
+        },
+        {
+            "nome": "André Martins",
+            "tipo": "professor",
+            "escola": "Horizonte do Saber",
+            "materia": "Português",
+            "turma": "7B",
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 20
+        },
+        {
+            "nome": "Juliana Freitas",
+            "tipo": "professor",
+            "escola": "Horizonte do Saber",
+            "materia": "Ciências",
+            "turma": "8A",
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 21
+        },
+        {
+            "nome": "Alice Moura",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "7A",
+            "professor": "Mariana Costa",
+            "ano": "7º ano",
+            "trilha": "Frações",
+            "pontos": 110,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 22
+        },
+        {
+            "nome": "Bernardo Silva",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "7A",
+            "professor": "Mariana Costa",
+            "ano": "7º ano",
+            "trilha": "Geometria",
+            "pontos": 95,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 23
+        },
+        {
+            "nome": "Clara Oliveira",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "7A",
+            "professor": "Mariana Costa",
+            "ano": "7º ano",
+            "trilha": "Frações",
+            "pontos": 140,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 24
+        },
+        {
+            "nome": "Daniel Castro",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "7A",
+            "professor": "Mariana Costa",
+            "ano": "7º ano",
+            "trilha": "Geometria",
+            "pontos": 80,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 25
+        },
+        {
+            "nome": "Elisa Gomes",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "7B",
+            "professor": "Lucas Almeida",
+            "ano": "7º ano",
+            "trilha": "Gramática",
+            "pontos": 125,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 26
+        },
+        {
+            "nome": "Gabriel Teixeira",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "7B",
+            "professor": "Lucas Almeida",
+            "ano": "7º ano",
+            "trilha": "Interpretação de texto",
+            "pontos": 100,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 27
+        },
+        {
+            "nome": "Helena Duarte",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "7B",
+            "professor": "Lucas Almeida",
+            "ano": "7º ano",
+            "trilha": "Gramática",
+            "pontos": 160,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 28
+        },
+        {
+            "nome": "Igor Carvalho",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "7B",
+            "professor": "Lucas Almeida",
+            "ano": "7º ano",
+            "trilha": "Interpretação de texto",
+            "pontos": 75,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 29
+        },
+        {
+            "nome": "Laura Mendes",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "8A",
+            "professor": "Beatriz Nogueira",
+            "ano": "8º ano",
+            "trilha": "Ecologia",
+            "pontos": 130,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 30
+        },
+        {
+            "nome": "Miguel Rocha",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "8A",
+            "professor": "Beatriz Nogueira",
+            "ano": "8º ano",
+            "trilha": "Corpo humano",
+            "pontos": 90,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 31
+        },
+        {
+            "nome": "Nina Barbosa",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "8A",
+            "professor": "Beatriz Nogueira",
+            "ano": "8º ano",
+            "trilha": "Ecologia",
+            "pontos": 170,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 32
+        },
+        {
+            "nome": "Otávio Lima",
+            "tipo": "aluno",
+            "escola": "CESAR School",
+            "turma": "8A",
+            "professor": "Beatriz Nogueira",
+            "ano": "8º ano",
+            "trilha": "Corpo humano",
+            "pontos": 115,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 33
+        },
+        {
+            "nome": "Pedro Henrique Alves",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "7A",
+            "professor": "Fernanda Ribeiro",
+            "ano": "7º ano",
+            "trilha": "Frações",
+            "pontos": 105,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 34
+        },
+        {
+            "nome": "Rafaela Souza",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "7A",
+            "professor": "Fernanda Ribeiro",
+            "ano": "7º ano",
+            "trilha": "Geometria",
+            "pontos": 145,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 35
+        },
+        {
+            "nome": "Samuel Ferreira",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "7A",
+            "professor": "Fernanda Ribeiro",
+            "ano": "7º ano",
+            "trilha": "Frações",
+            "pontos": 85,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 36
+        },
+        {
+            "nome": "Talita Azevedo",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "7A",
+            "professor": "Fernanda Ribeiro",
+            "ano": "7º ano",
+            "trilha": "Geometria",
+            "pontos": 120,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 37
+        },
+        {
+            "nome": "Vitor Cardoso",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "7B",
+            "professor": "André Martins",
+            "ano": "7º ano",
+            "trilha": "Gramática",
+            "pontos": 100,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 38
+        },
+        {
+            "nome": "Yasmin Correia",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "7B",
+            "professor": "André Martins",
+            "ano": "7º ano",
+            "trilha": "Interpretação de texto",
+            "pontos": 155,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 39
+        },
+        {
+            "nome": "Arthur Pacheco",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "7B",
+            "professor": "André Martins",
+            "ano": "7º ano",
+            "trilha": "Gramática",
+            "pontos": 70,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 40
+        },
+        {
+            "nome": "Bianca Farias",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "7B",
+            "professor": "André Martins",
+            "ano": "7º ano",
+            "trilha": "Interpretação de texto",
+            "pontos": 135,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 41
+        },
+        {
+            "nome": "Caio Batista",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "8A",
+            "professor": "Juliana Freitas",
+            "ano": "8º ano",
+            "trilha": "Ecologia",
+            "pontos": 115,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 42
+        },
+        {
+            "nome": "Débora Campos",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "8A",
+            "professor": "Juliana Freitas",
+            "ano": "8º ano",
+            "trilha": "Corpo humano",
+            "pontos": 180,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 43
+        },
+        {
+            "nome": "Enzo Moreira",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "8A",
+            "professor": "Juliana Freitas",
+            "ano": "8º ano",
+            "trilha": "Ecologia",
+            "pontos": 90,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 44
+        },
+        {
+            "nome": "Flora Tavares",
+            "tipo": "aluno",
+            "escola": "Horizonte do Saber",
+            "turma": "8A",
+            "professor": "Juliana Freitas",
+            "ano": "8º ano",
+            "trilha": "Corpo humano",
+            "pontos": 150,
+            "senha": "33e4d82da07d909d746836569a78a35a$19deec35b098330b39ac2dd8119470d28fcab029a1ec7964fa22e962ef6460df",
+            "id": 45
         }
     ],
     "escolas": [
         {
             "estado": "Pernambuco",
             "cidade": "Recife",
-            "escola": "Escola Modelo Aprender"
+            "escola": "Modelo Aprender"
+        },
+        {
+            "estado": "Pernambuco",
+            "cidade": "Recife",
+            "escola": "CESAR School"
+        },
+        {
+            "estado": "Pernambuco",
+            "cidade": "Recife",
+            "escola": "Horizonte do Saber"
         }
     ]
 }

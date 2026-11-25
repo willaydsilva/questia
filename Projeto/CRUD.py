@@ -32,6 +32,11 @@ def menu_usuario(usuario):
                     u for u in usuarios
                     if u.get("tipo") == "aluno" and u.get("escola") == usuario.get("escola")
                 ]
+            elif usuario.get("tipo") == "professor":
+                usuarios = [
+                    u for u in usuarios
+                    if u.get("escola") == usuario.get("escola")
+                ]
             for u in usuarios:
                 print(f"- {u.get('nome')} ({u.get('tipo')}) | escola: {u.get('escola')}")
 
